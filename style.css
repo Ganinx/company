@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+}
+
+nav {
+    display: flex;
+    align-items: baseline;
+    background-color: #f4511e;
+    color: white;
+    justify-content: space-around;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 1.2em;
+}
+
+ul {
+    display: flex;
+    width: 35%;
+    justify-content: end;
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+
+li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+/*main*/
+
+main {
+    background-color: #f4511e;
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+    color: white;
+    align-items: center;
+}
+
+h1 {}
+
+main h3 {
+    padding: 10px 0;
+}
+
+main input {
+    min-width: 400px;
+    padding: 5px 0;
+    border-radius: 4px;
+    border-width: 1px;
+}
+
+main button {
+    background-color: #d9534f;
+    color: white;
+    padding: 5px 10px;
+    border-color: #d9534f;
+    margin: 0 -5px;
+    border-radius: 4px;
+}
+
+/*about*/
+
+#about {
+    display: flex;
+}
+
+.about-text {
+    width: 70%;
+    padding-left: 30px;
+}
+
+.about-text h2 {
+    padding: 50px 0;
+}
+
+.about-img {
+    margin: auto;
+}
+
+.about-text p {
+    padding: 20px 0;
+}
+
+.about-text:nth-of-type(2) {
+    opacity: 0.5;
+}
+
+.about-text button {
+    padding: 8px 10px;
+    background-color: white;
+    border-color: grey;
+    border-radius: 4px;
+    border-width: 1px;
+}
