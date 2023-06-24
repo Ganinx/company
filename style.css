@@ -74,15 +74,19 @@ main button {
 /*about*/
 
 #about {
+    padding: 50px;
+}
+
+.container {
     display: flex;
 }
 
-.about-text {
+.about-value-text {
     width: 70%;
     padding-left: 30px;
 }
 
-.about-text h2 {
+.about-value-text h2 {
     padding: 50px 0;
 }
 
@@ -90,18 +94,153 @@ main button {
     margin: auto;
 }
 
-.about-text p {
+.about-value-text p {
     padding: 20px 0;
 }
 
-.about-text:nth-of-type(2) {
+.about-value-para {
     opacity: 0.5;
 }
 
-.about-text button {
+.about-value-text button {
     padding: 8px 10px;
     background-color: white;
     border-color: grey;
     border-radius: 4px;
     border-width: 1px;
+}
+
+/* =================================================================
+value
+*/
+
+#value {
+    padding: 80px 0;
+    background-color: #f6f6f6;
+}
+
+.value-img {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+
+#value img {
+    width: 30%;
+}
+
+/*services*/
+
+#services {
+    padding: 80px;
+}
+
+#services h2,
+h3 {
+    text-align: center;
+}
+
+#services h2 {
+    padding: 30px 0;
+}
+
+.plj {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gch {
+    display: flex;
+    justify-content: space-around;
+}
+
+.case {
+    text-align: center;
+    margin: 70px;
+}
+
+.case h4 {
+    padding: 12px 0 36px 0;
+}
+
+/*portfolio*/
+
+#portfolio {
+    background-color: #f6f6f6;
+    text-align: center;
+    padding: 80px;
+}
+
+.portfolio-image {
+    display: flex;
+    justify-content: space-around;
+}
+
+#portfolio h3 {
+    padding: 60px 0 20px 0;
+}
+
+/*customer*/
+
+#custom {
+    text-align: center;
+    padding: 80px;
+}
+
+#custom h2 {
+    padding-bottom: 50px;
+}
+
+.fleche-g {
+    width: 10px;
+    position: absolute;
+    transform: rotate(45deg);
+    left: 0%;
+    background: red;
+    height: 29px;
+    top: 2px;
+    border-radius: 4px;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.fleche-gb {
+    width: 10px;
+    position: absolute;
+    transform: rotate(135deg);
+    left: 0%;
+    background: red;
+    height: 29px;
+    top: 16px;
+    border-radius: 4px;
+    opacity: 0.5;
+}
+
+.fleche-d {
+    width: 10px;
+    position: absolute;
+    transform: rotate(135deg);
+    right: 0%;
+    background: red;
+    height: 29px;
+    top: 2px;
+    border-radius: 4px;
+    opacity: 0.5;
+}
+
+.fleche-db {
+    width: 10px;
+    position: absolute;
+    transform: rotate(45deg);
+    right: 0%;
+    background: red;
+    height: 29px;
+    top: 16px;
+    border-radius: 4px;
+    opacity: 0.5;
+}
+
+
+.carrousel {
+    position: relative;
 }
