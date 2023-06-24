@@ -2,6 +2,14 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-weight: normal;
 }
 
@@ -136,7 +144,7 @@ value
 }
 
 #services h2,
-h3 {
+#services h3 {
     text-align: center;
 }
 
@@ -185,6 +193,7 @@ h3 {
 #custom {
     text-align: center;
     padding: 80px;
+    background-color: #f6f6f6;
 }
 
 #custom h2 {
@@ -196,12 +205,10 @@ h3 {
     position: absolute;
     transform: rotate(45deg);
     left: 0%;
-    background: red;
+    background: #f5a38a;
     height: 29px;
     top: 2px;
     border-radius: 4px;
-    opacity: 0.5;
-    z-index: -1;
 }
 
 .fleche-gb {
@@ -209,11 +216,10 @@ h3 {
     position: absolute;
     transform: rotate(135deg);
     left: 0%;
-    background: red;
+    background: #f5a38a;
     height: 29px;
     top: 16px;
     border-radius: 4px;
-    opacity: 0.5;
 }
 
 .fleche-d {
@@ -221,11 +227,10 @@ h3 {
     position: absolute;
     transform: rotate(135deg);
     right: 0%;
-    background: red;
+    background: #f5a38a;
     height: 29px;
     top: 2px;
     border-radius: 4px;
-    opacity: 0.5;
 }
 
 .fleche-db {
@@ -233,14 +238,171 @@ h3 {
     position: absolute;
     transform: rotate(45deg);
     right: 0%;
-    background: red;
+    background: #f5a38a;
     height: 29px;
     top: 16px;
     border-radius: 4px;
-    opacity: 0.5;
 }
 
 
 .carrousel {
     position: relative;
+}
+
+/*Pricing*/
+
+
+#pricing {
+    padding: 80px;
+}
+
+#pricing h2,
+#pricing h3 {
+    text-align: center;
+}
+
+#pricing h3 {
+    padding: 50px 0;
+}
+
+.price-titres {
+    display: flex;
+    justify-content: space-around;
+}
+
+.price-titres h4 {
+    background-color: #f4511e;
+}
+
+.price-titre {
+    width: 30%;
+    text-align: center;
+    border: 2px solid #f4511e;
+}
+
+.price-titre h4 {
+    padding: 50px 0;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 1.5em;
+}
+
+
+.price {
+    border-top: 1px solid grey;
+    padding: 30px 0;
+}
+
+.price-titre p {
+    opacity: 0.5;
+}
+
+.price p:nth-of-type(1) {
+    padding-top: 0px;
+    font-size: 1.6em;
+}
+
+.price p:nth-of-type(2) {
+    font-size: 0.8em;
+    opacity: 0.8;
+    padding-bottom: 50px;
+}
+
+.nombre p {
+    padding: 10px 0;
+}
+
+.price button {
+    background-color: #f4511e;
+    padding: 10px 20px;
+    border-width: 0px;
+    color: white;
+    border-radius: 4px;
+}
+
+/*contact*/
+
+#contact {
+    background-color: #f6f6f6;
+    position: relative;
+}
+
+.formulaire {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+}
+
+.contact-num {
+    margin: auto 40px;
+}
+
+.contact-num p {
+    padding: 5px;
+}
+
+.formulaire-contact {
+    display: block;
+    width: 60%;
+}
+
+.formulaire-contact input {
+    width: 400px;
+    padding: 5px 0 5px 10px;
+    border-width: 1px;
+    border-radius: 2px;
+}
+
+textarea {
+    display: block;
+    width: 818px;
+    margin-top: 15px;
+    padding: 5px 0 5px 10px;
+}
+
+.formulaire-contact button {
+    padding: 5px 10px;
+    border-radius: 4px;
+    border-width: 1px;
+    float: right;
+    margin-right: 215px;
+    margin-top: 40px;
+}
+
+.formulaire-contact h2 {
+    margin-left: 50px;
+    font-weight: 600px;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+iframe {
+    width: 100%;
+}
+
+.footer-fleche-gauche {
+    width: 7px;
+    position: absolute;
+    background-color: red;
+    height: 20px;
+    z-index: 5;
+    bottom: 180px;
+    transform: rotate(142deg);
+    right: 943px;
+}
+
+.footer-fleche-droite {
+    width: 7px;
+    position: absolute;
+    background-color: red;
+    height: 20px;
+    z-index: 5;
+    bottom: 180px;
+    transform: rotate(42deg);
+    left: 944px;
+}
+
+.mention {
+    padding: 120px;
+    text-align: center;
 }
